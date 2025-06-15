@@ -20,22 +20,22 @@ export default function AkademiWebsite() {
 	const testimonials = [
 		{
 			name: "Ayşe Kaya",
-			text: "Mentörlük sürecinde işimi 3 katına çıkardım. Gerçekten değerli bir deneyim.",
+			text: "Enes beyden aldığım birebir eğitim sonrasında birçok alanda bilgim olmadığını fark ettim ve eksiklerimi kapatmış oldum, kendi markamın reklamlarını artık çok daha rahat yönetebiliyorum.",
 			rating: 5,
 		},
 		{
 			name: "Mehmet Demir",
-			text: "Pazarlama stratejilerimi tamamen değiştirdim ve sonuçlar harika!",
+			text: "Farklı bir sektörden geldiğim için konuyla ilgili hiç bilgim yoktu fakat mentörlük süreci sonunda artık reklam yönetim hizmeti verebilmeye başladım. Bu süreçte biraz fazla sorum vardı ve sıfırdan geldiğim için ricam üzerine mentörlük sürecini 1 ay kadar uzattık.",
 			rating: 5,
 		},
 		{
 			name: "Zeynep Yılmaz",
-			text: "Sosyal medya yönetiminde çok şey öğrendim. Teşekkürler!",
+			text: "Normalde ajans ile çalışıyorum ama kontrol sağlayabilmek için reklam öğrendim tam istediğim şekilde çalışabiliyorum şu an",
 			rating: 5,
 		},
-		{ name: "Can Özkan", text: "Marka kimliğimi oluşturmada büyük destek aldım.", rating: 5 },
-		{ name: "Elif Şahin", text: "Satış tekniklerinde aldığım eğitim işimi değiştirdi.", rating: 5 },
-		{ name: "Burak Çelik", text: "Dijital pazarlama konusunda uzman oldum.", rating: 5 },
+		{ name: "Can Özkan", text: "Eğitim süreci boyunca hem teorik bilgileri hem de pratik uygulamaları öğrendim, artık kendi işlerimin reklamlarını gönül rahatlığıyla yönetiyorum.", rating: 5 },
+		{ name: "Elif Şahin", text: "Reklam konusunda kafam çok karışıktı, Enes Bey adım adım ilerleyerek tüm süreci sade ve anlaşılır şekilde öğretti.", rating: 5 },
+		{ name: "Burak Çelik", text: "Dijital pazarlama dünyasına adım atmak istiyordum ama nereden başlayacağımı bilmiyordum, bu mentörlük programı sayesinde net bir yol haritam oldu.", rating: 5 },
 		{
 			name: "Seda Acar",
 			text: "E-ticaret stratejilerimi geliştirmede çok yardımcı oldu.",
@@ -43,29 +43,26 @@ export default function AkademiWebsite() {
 		},
 		{
 			name: "Emre Kılıç",
-			text: "Müşteri ilişkileri yönetiminde harika ipuçları aldım.",
+			text: "Eğitimden sonra reklam panellerine olan korkum gitti, artık her şeyi rahatlıkla kurabiliyorum.",
 			rating: 5,
 		},
-		{ name: "Gamze Arslan", text: "İçerik üretimi konusunda kendimi geliştirdim.", rating: 5 },
+		{ name: "Gamze Arslan", text: "Sadece reklam öğrenmedim, aynı zamanda kendi markamı nasıl büyüteceğim konusunda da vizyon kazandım.", rating: 5 },
 		{
 			name: "Oğuz Yıldız",
-			text: "Rekabet analizi yapmayı öğrendim ve avantaj sağladım.",
+			text: "Her soruma sabırla cevap verildi, özellikle uygulama sırasında birebir destek almak çok değerliydi",
 			rating: 5,
 		},
-		{ name: "Pınar Doğan", text: "Fiyatlandırma stratejilerimi optimize ettim.", rating: 5 },
-		{ name: "Serkan Güneş", text: "Marka konumlandırması konusunda bilinçlendim.", rating: 5 },
-		{ name: "Deniz Kara", text: "Müşteri deneyimi tasarımında uzmanlaştım.", rating: 5 },
-		{ name: "Merve Öztürk", text: "Satış hunisi oluşturmada başarılı oldum.", rating: 5 },
-		{ name: "Kaan Yavuz", text: "Dijital reklam kampanyalarımda ROI artırdım.", rating: 5 },
-		{ name: "Nihan Çakır", text: "Influencer pazarlama stratejilerini öğrendim.", rating: 5 },
+		{ name: "Pınar Doğan", text: "Kurs bitiminde portföyüme ilk müşterimi ekledim bile! Enes Bey’in yönlendirmeleri olmasa bu kadar hızlı ilerleyemezdim.", rating: 5 },
+		{ name: "Serkan Güneş", text: "Eğitimden önce reklam terimleri bile bana çok yabancıydı ama şimdi kampanya kurmak günlük rutinim oldu.", rating: 5 },
+		{ name: "Deniz Kara", text: "Ajans ile çalışırken hep bir şeyleri eksik hissediyordum, şimdi kendi iç görülerimle sürece yön verebiliyorum.", rating: 5 },
+		{ name: "Merve Öztürk", text: "Mentörlük süreci sırasında ekstra destek istediğim konularda hiç yalnız bırakılmadım.", rating: 5 },
+		{ name: "Kaan Yavuz", text: "Eğitim sonunda sadece reklam paneli değil, içerik stratejisi ve analiz tarafını da öğrenmiş oldum.", rating: 5 },
+		{ name: "Nihan Çakır", text: "Artık reklam bütçemi daha verimli kullanabiliyor ve neyin işe yarayıp yaramadığını analiz edebiliyorum.", rating: 5 },
 		{
 			name: "Tolga Erdoğan",
-			text: "E-posta pazarlama kampanyalarımda başarı elde ettim.",
+			text: "Eğitim sürecinde öğrendiklerimi hemen uygulamaya geçirdim, sonuçları görmek çok motive ediciydi.",
 			rating: 5,
 		},
-		{ name: "Sibel Koç", text: "Veri analizi yaparak kararlarımı optimize ettim.", rating: 5 },
-		{ name: "Cem Aktaş", text: "Müşteri segmentasyonu konusunda uzmanlaştım.", rating: 5 },
-		{ name: "Gizem Polat", text: "Omnichannel pazarlama stratejilerini uyguladım.", rating: 5 },
 	];
 
 	const steps = [
